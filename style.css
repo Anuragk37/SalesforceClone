@@ -1,0 +1,683 @@
+body{
+    margin: 0; 
+}
+header{
+    width: 100%;
+    height: 96px;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.left-session{
+    width: 65%;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    padding-left: 35px;
+    
+}
+.right-session{
+    height: 96px;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.nav-links ul{
+    list-style: none;
+    
+}
+.nav-links ul li{
+    float: left;
+    
+}
+.nav-links ul li a{
+    display: inline-block;
+    padding: 20px;
+    padding-top: 0;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #032D60;
+}
+.nav-links a:hover{
+    color: #0176D3;
+}
+#login{
+    background-color: #ffffff;
+    color: #032D60;
+    font-size: 15px;
+    border: none;
+    font-weight: 700;
+    height: 40px;
+    width: 90px;
+    border-radius: 30px;
+
+}
+.login-dropdown{
+    display: none;
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    z-index: 1;
+    padding-left: 20px;
+    margin-left: -100px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: start;
+    font-size: 16px;
+    background-color: #c6dbf4;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-link{
+    font-size: 13px;
+    color: #0176D3;
+    font-weight: 500;
+}
+.dropdown-link h5{
+    color: #a7a6a6;
+    font-weight: 500;
+}
+#search-btn,#globe-btn{
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+}
+
+#search-btn:hover,#globe-btn:hover{
+    background-color: #e5eefb;
+    cursor: pointer;
+}
+
+#login i{
+    margin-right: 2px;
+    border-radius: 30px;
+}
+#login:hover .login-dropdown{
+    background-color: #f9fdff;
+    display: block;
+}
+#login:hover{
+    cursor: pointer;
+}
+.login-dropdown p{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #3b3a3a;
+    font-weight: 500;
+    line-height: 25px;
+}
+#btn-try{
+    width: 140px;
+    height: 44px;
+    background-color: #2E844A;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 3px;
+}
+#btn-try:hover{
+    background-color: #051e0d;
+    cursor: pointer;
+}
+.contact{
+    padding-top: 10px;
+    line-height: 10px;
+}
+.contact a{   
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 10px;
+    color: #032D60;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.dreamforce{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #032D60;
+    color: white;
+}
+.dreamforce h3{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    letter-spacing: 0;
+}
+.dreamforce a{
+   font-size: 16px;
+   color: white;
+   font-family: "Salesforce Sans", Arial, sans-serif; 
+   font-weight: 600;
+}
+.section1{
+    width: 100%;
+    height: 640px;
+    background-image: url("images/section1-bg.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.section1-left{
+    width: 50%;
+    height: 100%;
+    padding-left: 120px;
+    padding-top: 90px;
+    
+}
+.heading h1{
+    width: 620px;
+    font-family: "Salesforce Sans", Arial, sans-serif;
+    font-size: 60px;
+    color: #032D60;
+    letter-spacing: -2px;
+    word-spacing: -4px;
+    line-height: 64px;
+    
+}
+.subheading {
+    width: 660px;
+    font-family: "Salesforce Sans", Arial, sans-serif;
+    font-size: 21px;
+    color: rgb(26, 25, 25);
+    margin-top: -15px;
+    letter-spacing: .3px;
+    line-height: 28px;
+    word-spacing: -1px;
+}
+
+.section1-btn button{
+
+    margin-top: 20px;
+
+}
+.blue-button{
+    height: 50px;
+    width: 165px; 
+    background-color: #0176D3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+}
+.white-button{
+    height: 50px;
+    width: 165px; 
+    background-color: #ffffff;
+    color: #0176D3;
+    border-color: #0176D3;
+    border-radius: 4px;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.section1-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    
+}
+
+.section1-right img{
+    height: 510px;
+    width: 510px;
+}
+.section2{
+    width: 100%;
+    height: 960px;
+    background-image:url("images/section2-bg.webp"),linear-gradient(white,rgb(215, 237, 245));
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+.headings{
+    width: 830px;
+    text-align: center;
+    margin-left: 350px;
+    font-family: "Salesforce Sans", Arial, sans-serif;
+    font-size: 40px;
+    line-height:48px;
+    letter-spacing:-0.32px;
+    color: #032D60;
+
+}
+.cards{
+    width: 1275px;
+    height: 425px;
+    margin-left: 120px;
+    margin-right: 100px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.card1,.card2,.card3,.card4{
+    height: 100%;
+    width: 280px;
+    background-color: white;
+    box-shadow: 0 5px 6px rgb(184, 182, 182);
+    border-radius: 10px;
+}
+.card-img{
+    width: 100%;
+    height: 170px;
+    padding: 0;
+}
+.card-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.card-content{
+    width: 100%;
+    height: 150px;
+    padding-left: 30px;
+    padding-top: 16px;
+    font-family: "Salesforce Sans", Arial, sans-serif;
+    color: #032D60;
+    font-size: 18px;
+    letter-spacing:-0.32px;
+}
+.card-content p{
+    font-size: 17px;
+    color: rgb(48, 47, 47);
+    letter-spacing:-0.2px;
+    width: 220px;
+    margin-top: 12px;
+    line-height: 25px;
+}
+.card-link{
+    height: auto;
+    width: 100%;
+    color: #032D60;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-family: "Salesforce Sans", Arial, sans-serif;
+    font-weight: 600;
+}
+.section2-btn button{
+    height: 50px;
+    width: 200px; 
+    margin-top: 60px;
+    margin-left: 670px;
+}
+.section3{
+    width: 100%;
+    height: 380px;
+    padding-top: 50px;
+}
+.section3 h1{
+    /* margin-top: 60px; */
+    font-size: 47px;
+}
+.sub-discription{
+    width: 720px;
+    margin-left: 420px;
+    text-align: center;
+    font-family: "Salesforce Sans", Arial, sans-serif;
+    font-size: 18px;
+    color: rgb(26, 25, 25);
+    letter-spacing: .4px;
+    line-height: 28px;
+    word-spacing: -1px;
+}
+.section3-btn{
+    margin-left: 590px;
+    margin-top: 40px;
+}
+
+/* section 4 */
+.section4{
+    width: 100%;
+    height: 850px;
+}
+.skill-card1,.skill-card2,.skill-card3{
+    height: 100%;
+    width: 380px;
+    background-color: white;
+    box-shadow: 3px  6px 4px 2px   rgb(184, 182, 182);
+    border-radius: 10px;
+    padding-top: 20px;
+}
+.skill-card1 .card-img{
+    height: 120px;
+    width: 120px;
+    margin-left: 140px;
+    
+}
+.section4-btn{
+    margin-top: 125px;
+    margin-left: 650px;
+}
+
+/* section5 */
+
+.section5{
+    width: 100%;
+    height: 900px;
+    background-image: url("images/section5-bg.webp"),linear-gradient(white,rgb(215, 237, 245));
+    background-position: bottom;
+    background-repeat: no-repeat;
+   /* clip-path: ellipse(65% 44% at 50% 56%); */
+   border-bottom-left-radius: 50% 140px;
+    border-bottom-right-radius: 50% 140px;
+} 
+.row1-cards{
+    width: 1300px;
+    height: 100px;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.row2-card{
+    width: 420px;
+    height: 100px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-card{
+    width: 200px;
+    height: 100%;
+    background-color: #ffffff;
+    box-shadow: 3px  6px 4px 2px   rgb(228, 226, 226);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo-card img{
+    height: 50px;
+    width: 135px;
+}
+.section5-btn{
+    margin-top: 125px;
+    margin-left: 650px;
+}
+
+
+/* section6 */
+.section6{
+    width: 100%;
+    height: 550px;
+    padding-top: 70px;
+}
+.single-block{
+    width: 1250px;
+    height: 450px;
+    border-radius: 6px;
+    margin-left: 130px;
+    box-shadow: 1px -2px 4px 7px #a7a6a6;
+    display: flex;
+}
+.left-purchase{
+    width: 55%;
+    height: 100%;
+    align-items: center;
+}
+.right-purchase{
+    width: 45%;
+    height: 100%;
+}
+.left-purchase .discription .headings{
+    margin-left: 100px;
+    margin-top: 75px;
+    width: 500px;
+    text-align: left;
+}
+.section6-btn{
+    margin-left: 100px;
+    margin-top: 75px;
+}
+.right-purchase img{
+    height: 100%;
+    width: 100%;
+}
+.section7{
+    width: 100%;
+    height: 550px;
+}
+.section7-cards{
+    width: 1275px;
+    height: 400px;
+    margin-left: 120px;
+    margin-right: 100px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.section7-card1,.section7-card2,.section7-card3,.section7-card4{
+    height: 100%;
+    width: 280px;
+    background-color: white;
+    border-radius: 10px;
+}
+.section7-card-img{
+    width: 100%;
+    height: 270px;
+    padding: 0;
+}
+.section7-card-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.card-link{
+    height: auto;
+    width: 100%;
+    color: #032D60;
+    padding-top: 50px;
+    padding-left: 30px;
+    font-family: "Salesforce Sans", Arial, sans-serif;
+    font-weight: 600;
+}
+
+/* section8 */
+.section8{
+    width: 100%;
+    height: 900px;
+    background-image: url("images/section8-bg.webp"),linear-gradient(white,rgb(215, 237, 245));
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* clip-path: ellipse(65% 44% at 50% 56%); */
+    border-bottom-left-radius: 50% 140px;
+    border-bottom-right-radius: 50% 140px;
+    
+}
+.section8 .discription{
+    margin-top: -30px;
+}
+.section8-cards-container{
+    width: 1400px;
+    height: 355px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 55px;
+    margin-right: 20px;
+}
+.section8-cards img{
+    height: 255px;
+    width: 385px;
+}
+.section8-cards p{
+    width: 355px;
+    font-family: "Salesforce Sans", Arial, sans-serif;
+    font-size: 18px;
+    color: rgb(26, 25, 25);
+    margin-top: 23px;
+    letter-spacing: .5px;
+    line-height: 28px;
+    word-spacing: -1px;
+}
+.section9{
+    width: 100%;
+    height: 550px;
+    padding-top: 70px;
+}
+.section9 .single-block{
+    background-image: url("images/section9-bg.webp");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+.section9 .discription{
+    height: 300px;
+}
+.section9 h1{
+    margin-left: 300px;
+    margin-top: 65px;
+    width: 650px;
+}
+.section9 p{
+    width: 655px;
+    font-family: "Salesforce Sans", Arial, sans-serif;
+    font-size: 18px;
+    color: rgb(26, 25, 25);
+    margin-top: 23px;
+    letter-spacing: .4px;
+    line-height: 28px;
+    word-spacing: -1px;
+    margin-left: 300px;
+    text-align: center;
+}
+#section9-btn{
+    width: 900px;
+    height: 70px;
+    
+}
+#section9-btn .blue-button{
+    margin-left: 300px;
+    margin-top: 0px;
+    
+}
+#section9-btn a{
+    margin-left: 250px;
+    color: #032D60;
+    font-size: 17px;
+    font-weight: 600;
+}
+.section10{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    padding-top: 40px;
+}
+.section10-blk1{
+    width: 400px;
+    margin-left: 110px;
+    height: 100%;
+}
+.social-midea-link{
+    width: 400px;
+    height: 50px;
+    margin-top: 50px;
+}
+.social-midea-link i{
+    margin-left: 20px;
+    
+}
+.contact-us p{
+    font-family: "Salesforce Sans", Arial, sans-serif;
+    font-weight: 600;
+}
+.section10-blk{
+    width: 300px;
+    height: 100%;
+
+}
+.section10-blk h3{
+    font-family: "Salesforce Sans", Arial, sans-serif;
+    font-size: 17px;
+}
+.section10-blk ul{
+    list-style: none;
+    line-height: 35px;
+    margin-left: -30px;    
+}
+.section10-blk ul li a{
+    text-decoration: none;
+    font-family: "Salesforce Sans", Arial, sans-serif;
+    font-size: 13px;
+    color: #0176D3;
+}
+footer{
+    height: 80px;
+    width: 100%;
+    background-color: #032D60;
+    padding-top: 30px;
+}
+footer button{
+    height: 40px;
+    width: 165px;
+    margin-left: 110px;
+    background-color: #032D60;
+    border-color: white;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    float: left;
+    
+}
+footer button i{
+    margin-right: 3px;
+}
+footer button:hover{
+    cursor: pointer;
+}
+footer h6{
+    color: white;
+    margin-left: 30px;
+    margin-top: -3px;
+    font-family: "Salesforce Sans", Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    float: left;
+}
+footer ul{
+    list-style: none;
+    font-size: 10px;
+    font-family: "Salesforce Sans", Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    margin-top: 34px;
+    
+}
+footer ul li{
+    float: left;
+    margin-left: 25px;
+}
+footer a{
+    
+    color: #0176D3;
+}
+.blue-button:hover{
+    background-color: #032D60;
+    cursor: pointer;
+}
+.white-button:hover{
+    background-color: #e8f0fa;
+    cursor: pointer;
+    color: #032D60;
+    border-color: #032D60;
+}
